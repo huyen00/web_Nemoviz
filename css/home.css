@@ -1,0 +1,27 @@
+
+
+a{
+    text-decoration: none !important;
+}
+.header{
+    height:150px;
+}
+.img-logo{
+    max-width: 60% !important;
+    
+}
+.navbar-nav {
+    
+}
+.navbar-brand img {
+    display: block;
+}
+.nav-item{
+    display: flex;
+}
+.link_item{
+    color: black !important;
+}
+.collapse{
+    display: block !important;
+}
