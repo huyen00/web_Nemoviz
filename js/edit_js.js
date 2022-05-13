@@ -17,7 +17,6 @@ $("#close").click(function(){
 
 // Sticky menu //
 $(document).ready(function(){
-  
       
       //On Scroll Functionality
       $(window).scroll( () => {
