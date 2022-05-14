@@ -47,6 +47,23 @@
   /* padding: 8px; */
   overflow: hidden;
 }
+.product h4{
+  color:black;
+  font-weight: 600;
+}
+.list_iconProduct{
+  display: flex;
+  padding:1rem 0;
+}
+.list_iconProduct span{
+  color:black !important;
+}
+.item_iconProduct{
+  color:#757575;
+  padding-right: 0.5rem;
+ 
+  margin: auto;
+}
 .title_product{
   color:#000
 }
@@ -90,7 +107,10 @@
   background: linear-gradient(30deg, #F7C514, #F77314) !important;
   border-style: hidden;
   color: #fff;
+  padding:1rem;
+  margin-top: 2rem;
 }
+
 .footer{
   padding:20px 0;
 }
@@ -102,6 +122,71 @@
 }
 .footer_copyright{
   padding: 2rem !important;
+}
+.col-company{
+  display: flex;
+}
+.company{
+  background-color: #012e64;
+  color:rgb(210, 207, 207);
+  padding:3rem 0
+}
+.company_nemoviz{
+  width: 20%;
+}
+.company_nemoviz span{
+  display: flex;
+  margin-top:2rem;
+  
+}
+.company_logo{
+  width: 30%;
+}
+.list-icon{
+  display:flex;
+  padding-left:0;
+  margin-top:2rem;
+}
+.item-icon{
+  list-style: none;
+  padding-right:2rem;
+  font-size: 22px;
+}
+
+.contact_company{
+  width: 34%;
+}
+.contact_company h3{
+  text-align: center;
+  color:#ffff;
+}
+li{
+  list-style: none;
+}
+
+.contact_company li{
+  padding:1rem;
+}
+.product_company{
+  width: 23%;
+}
+.product_company h3{
+ text-align: center;
+ color:#ffff;
+}
+.product_company ul{
+  padding:3rem;
+}
+.list_product{
+  padding-left:3rem;
+}
+.list_product span{
+  display: flex;
+  padding-bottom:2rem;
+}
+.right_end a{
+  padding-right:2rem;
+  color:#ffff;
 }
 /*Animiation Scroll
 */
@@ -26657,7 +26742,7 @@ i.fas.fa-bars {
     margin: 0 -15px;
 }
 footer {
-    padding: 20px 0;
+    padding: 5rem 0;
     background: url(../images/footer/footer.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -26699,13 +26784,39 @@ footer .contact_me p a {
     font-family: 'SFU_LI';
     display: flex;
 }
+.content_contact{
+  display: flex;
+  justify-content: center;
+}
+.btn_hotline{
+  display: flex;
+  padding:1rem;
+  background-color: red;
+  border:0;
+  border-radius:6px;
+  margin-top:2rem;
+}
+.title_form{
+  display: flex;
+  margin-top:2rem;
+  font-size: 28px;
+
+}
+.btn-cta{
+
+}
 .left_fot {
-    width: 60%;
+    width: 40%;
     float: left;
+    padding-right:2rem;
+    margin-top:3rem;
+
 }
 .right_fot {
     width: 40%;
     float: left;
+    margin-top:3rem;
+
 }
 .left_fot h4 {
     font-family: 'SFU_B';
@@ -30191,7 +30302,7 @@ a.colorch:hover {
   margin-top:3rem;
 }
 .page_item .item-slide{
-  box-shadow: 5px 10px #ffff;
+  /* box-shadow: 10px 10px 5px 5px #ffff; */
 }
 /* tin tức */
 .menu_news{
