@@ -136,7 +136,7 @@ $('.slider_news').slick({
        {
          breakpoint: 801,
          settings: {
-           slidesToShow: 3,
+           slidesToShow: 2,
            arrows: false,
          }
        },
@@ -175,7 +175,7 @@ $('.slider_product').slick({
        {
          breakpoint: 801,
          settings: {
-           slidesToShow: 3,
+           slidesToShow: 2,
            arrows: false,
          }
        },

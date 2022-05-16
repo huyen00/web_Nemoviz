@@ -641,6 +641,10 @@
 	#slider_img {
 	    height: 70vh;
 	}
+	.img_doitac{
+		width: 100%;
+	}
+	
 
 }
 @media (min-width: 1600px) { 

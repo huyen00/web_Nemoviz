@@ -59,7 +59,7 @@
   color:black !important;
 }
 .item_iconProduct{
-  color:#757575;
+  color:#75757571;
   padding-right: 0.5rem;
  
   margin: auto;
@@ -98,6 +98,34 @@
 /* page 8 */
 .item-slide{
   /* width: 31%; */
+}
+/* page_item_news */
+.news_item{
+  margin-top:10rem;
+  padding:3rem 0;
+}
+.news_item{
+  display: flex;
+}
+.news_item_left{
+  width: 60%;
+  display: block;
+  padding-right: 3rem;
+}
+.news_item_right{
+  width: 35%;
+}
+.list_item_right{
+  border: 1px solid rgba(0,0,0,.1);
+  padding:2rem;
+  border-radius: 7px;
+}
+.number_news{
+  float: right;
+}
+.link_news{
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding-top:2rem;
 }
 /* footer */
 .title-contact{
@@ -26145,6 +26173,10 @@ a:hover {
     opacity: 1 !important;
     font-weight: bold;
 }
+.menu_link.active{
+  opacity: 1 !important;
+  font-weight: bold;
+}
 body {
 	line-height: 23px;
 	color: #444444;
@@ -26744,6 +26776,7 @@ i.fas.fa-bars {
 footer {
     padding: 5rem 0;
     background: url(../images/footer/footer.svg);
+    /* background:url(../img/footer.jpg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -26784,10 +26817,12 @@ footer .contact_me p a {
     font-family: 'SFU_LI';
     display: flex;
 }
-.content_contact{
-  display: flex;
+.content_news{
+  display: block;
   justify-content: center;
+  padding: 2rem 1rem 1rem;
 }
+
 .btn_hotline{
   display: flex;
   padding:1rem;
@@ -27459,6 +27494,7 @@ a.menu__sub-menu__link.active_sub {
     margin-top: 15px;
     color: black;
 }
+
 .title_xanh {
     color: #002A5E;
     margin: 0;
@@ -27685,9 +27721,9 @@ display: flex;
     width: 100%;
 }
 .content_news {
-    width: 65%;
+    /* width: 65%;
     float: left;
-    padding-right: 30px;
+    padding-right: 30px; */
 }
 .sanpham_khac {
     width: 35%;
@@ -30305,6 +30341,12 @@ a.colorch:hover {
   /* box-shadow: 10px 10px 5px 5px #ffff; */
 }
 /* tin tức */
+.tab_content .product{
+  text-align: center;
+}
+.clock{
+  font-size: 13px;
+}
 .menu_news{
   color:#002a63;
 }
@@ -30340,7 +30382,7 @@ a.colorch:hover {
   position: absolute;
  color:#ffff;
   right:50%;
-  bottom: 30%;
+  bottom: 50%;
   border-radius: 5px;
 }
 .title_news{
@@ -30368,7 +30410,7 @@ a.colorch:hover {
   padding:1rem;
 }
 .main_news1{
-  position: absolute;
+  
     left: 0;
     top: 0;
     width: 100%;
@@ -30407,4 +30449,16 @@ a.colorch:hover {
 }
 .product:hover .content_contact{
   color:red;
+}
+
+/* reponsive */
+@media only screen and (max-width:739px){
+  /* trang chủ */
+  .left_about{
+    width: 100%;
+  }
+  .right_about{
+    width: 100%;
+    display: block !;
+  }
 }
