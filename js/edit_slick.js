@@ -43,7 +43,7 @@ $('.slider_business').slick({
    slidesToScroll: 1,
    arrows: true,
    autoplay: true,
-   autoplaySpeed: 1500,
+   autoplaySpeed: 2500,
    infinite: true,
    dots: false,
    responsive: [
@@ -84,7 +84,7 @@ $('.slider_news').slick({
    slidesToScroll: 1,
    arrows: true,
    autoplay: true,
-   autoplaySpeed: 1500,
+   autoplaySpeed: 2500,
    infinite: true,
    dots: false,
    responsive: [
@@ -123,7 +123,7 @@ $('.slider_news').slick({
   slidesToScroll: 1,
   arrows: true,
   autoplay: true,
-  autoplaySpeed: 1500,
+  autoplaySpeed: 2500,
   infinite: true,
   dots: false,
   responsive: [
@@ -162,7 +162,7 @@ $('.slider_product').slick({
   slidesToScroll: 1,
   arrows: true,
   autoplay: true,
-  autoplaySpeed: 1500,
+  autoplaySpeed: 2500,
   infinite: true,
   dots: false,
   responsive: [
@@ -201,7 +201,7 @@ $('.slider_doitac').slick({
    slidesToScroll: 1,
    arrows: false,
    autoplay: true,
-   autoplaySpeed: 1500,
+   autoplaySpeed: 2500,
    infinite: true,
    dots: false,
    responsive: [
