@@ -125,38 +125,39 @@
                                         <a href="../page/contact.html" class="menu__link menu_news">Liên Hệ </a>
                                     </li>
                                 </ul>
+                                <div class="mobile_icon">
+                                    <ul style="margin-top:2rem">
+                                        <li style="text-align:center">
+                                            <a href="https://www.facebook.com/search/top?q=nemoviz">
+                                                <img src="../img/logo_fb1.png" style="width:30px" alt="">
+                                                <!-- <i class="fab fa-facebook"></i> -->
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="icon_logo">
+                                        <li class="link_icon_mobile">
+                                            <a href="">
+                                                <img src="../img/logo-instagram-5.png" style="width:40px" alt="">
+                                                <!-- <i class="fab fa-instagram"></i> -->
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="link_icon_mobile">
+                                            <a href="">
+                                                <img src="../img/logo_linkin.png" style="width:38px" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="link_icon_mobile">
+                                            <a href="https://www.youtube.com/channel/UCV-jvkZasrZHBE3OC-5Mkjg">
+                                                <img src="../img/ytb.png" style="width:40px" alt="">
+                                                <!-- <i class="fab fa-youtube-square"></i> -->
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
                             </nav>
-                            <div class="mobile_icon">
-                                <ul style="margin-top:2rem">
-                                    <li style="text-align:center">
-                                        <a href="https://www.facebook.com/search/top?q=nemoviz">
-                                            <img src="img/logo_fb1.png" style="width:30px" alt="">
-                                            <!-- <i class="fab fa-facebook"></i> -->
-                                        </a>
-                                    </li>
-                                </ul>
-                                <ul class="icon_logo">
-                                    <li class="link_icon_mobile">
-                                        <a href="">
-                                            <img src="img/logo-instagram-5.png" style="width:40px" alt="">
-                                            <!-- <i class="fab fa-instagram"></i> -->
-                                        </a>
-                                    </li>
-                                    
-                                    <li class="link_icon_mobile">
-                                        <a href="">
-                                            <img src="img/logo_linkin.png" style="width:38px" alt="">
-                                        </a>
-                                    </li>
-                                    <li class="link_icon_mobile">
-                                        <a href="https://www.youtube.com/channel/UCV-jvkZasrZHBE3OC-5Mkjg">
-                                            <img src="img/ytb.png" style="width:40px" alt="">
-                                            <!-- <i class="fab fa-youtube-square"></i> -->
-                                        </a>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
+                            
                         </div>
 
                         <div id="nav-icon" class="menu-button visible-xs">
@@ -616,7 +617,7 @@
 </div>
 
             <!-- /WhatsHelp.io widget -->
-            <script type='text/javascript' src='js/map_3d_2.js'></script>
+            <script type='text/javascript' src='../js/map_3d_2.js'></script>
             <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2Zb2vY8-t_9BUYqFFjc9LQiNWUZPLft4&callback=initialize" async="" defer="defer" type="text/javascript"></script>-->
 
             <script type="text/javascript">
@@ -636,61 +637,7 @@
                         c = currentScrollTop;
                     });
                 });
-                var map;
-
-                function initialize() {
-                    var myLatlng = new google.maps.LatLng(16.091156, 108.227920);
-                    var myOptions = {
-                        zoom: 20,
-                        center: myLatlng,
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-
-                    }
-
-                    map = new google.maps.Map(document.getElementById("div_id"), myOptions);
-                    var text;
-                    text = "<img class='logo_map' src='images/logo_map.svg'>";
-                    var infowindow = new google.maps.InfoWindow({
-                        content: text,
-                        size: new google.maps.Size(100, 50),
-                        position: myLatlng
-                    });
-                    infowindow.open(map);
-                    var marker = new google.maps.Marker({
-                        position: myLatlng,
-                        map: map,
-                        title: ""
-                    });
-                }
-                var stylez = [{
-                    featureType: "all",
-                    elementType: "all",
-                    stylers: [{
-                            saturation: -100
-                        } // <-- THIS
-                    ]
-                }];
-
-                $(document).ready(function() {
-                    //initialize();
-                });
-
-
-                $(".click_video").click(function() {
-                    showLoader();
-                    var element = $(this);
-                    $.ajax({
-                        url: '/action.php',
-                        method: "POST",
-                        data: 'url=open_video',
-                        dataType: 'html',
-                        success: function(data) {
-                            $('#myModal_video').html(data);
-                            $(".fade").addClass("in");
-                            closeLoader();
-                        }
-                    })
-                });
+            
             </script>
             <script async src="../js/youtube_2.js"></script>
             <script async custom-element="amp-youtube" src="../js/youtube_1.js"></script>
@@ -701,7 +648,7 @@
             <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
             <script src="../js/jquery.menu-aim.js"></script>
             <!-- menu aim -->
-            <script src="js/main.js"></script>
+            <script src="../js/main.js"></script>
             <!-- Resource jQuery -->
             <script type="text/javascript" src="../js/fancy2.js"></script>
             <script type="text/javascript" src="../js/fancy1.js"></script>
@@ -713,7 +660,7 @@
 
 
 </body>
-<script>
+<!-- <script>
     ! function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0],
             p = /^http:/.test(d.location) ? 'http' : 'https';
@@ -729,7 +676,7 @@
     {
         lang: 'vi'
     }
-</script>
+</script> -->
 
 
 <!-- Mirrored from vr360.com.vn/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 May 2022 07:32:18 GMT -->

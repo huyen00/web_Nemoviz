@@ -18,10 +18,22 @@
 	.slick-next {
 	    right: -30px;
 	}
+	/* lien hệ */
+	.right_fot, .left_fot{
+		width: 50%;
+	}
+	.form-group {
+		width: 100% !important;
+		margin: auto;
+		padding: 2rem;
+	}
+	#contact-form{
+		padding:0 2rem;
+	}
 }
 @media all and (max-width: 1099px) {
 	.mobile_icon{
-		display: none ;
+		display: block ;
 	  }
 	#slider_img {
 		height: 70vh ;
@@ -148,6 +160,18 @@
 	    z-index: 99999;
 	    left: 0;
 	    right: 0;
+	}
+	/* lien hệ */
+	.right_fot, .left_fot{
+		width: 50%;
+	}
+	.form-group {
+		width: 100% !important;
+		margin: auto;
+		padding: 2rem;
+	}
+	#contact-form{
+		padding:0 2rem;
 	}
 }
 @media all and (max-width: 1024px) {
@@ -340,11 +364,9 @@
 	.page_item {
 		display: flex;
 		margin-top: 3rem;
-		/* justify-content: flex-end !important; */
 		align-content: space-between !important;
 		justify-content: flex-start !important;
 		flex-wrap: wrap !important;
-		/* flex-direction: row-reverse !important; */
 	}
 	.item-slide {
 		width: 45%;
@@ -359,6 +381,18 @@
 	/* tin tức  */
 	#page_1{
 		padding:50px 0 50px;
+	}
+	/* lien hệ */
+	.right_fot, .left_fot{
+		width: 50%;
+	}
+	.form-group {
+		width: 100% !important;
+		margin: auto;
+		padding: 2rem;
+	}
+	#contact-form{
+		padding:0 2rem;
 	}
 }
 
@@ -381,7 +415,7 @@
 	}
 	/* trang chủ */
 	#slider_img {
-		height: 65vh ;
+		height: 55vh ;
 	}
 	.slider1_text{
 		display: none;
@@ -436,15 +470,15 @@
 
 	}
 
-            #page_4 .text-container{ 
+     #page_4 .text-container{ 
                 padding: 20px;
                 font-size: 20px;
 		line-height: 24px;
             }
-	    #page_4 .vr360-title{
+	 #page_4 .vr360-title{
 		font-size: 22px;
 	    }
-	    #page_7 .parent {
+	#page_7 .parent {
                 width: 100%;
                 margin: 20px 0px
             }
@@ -483,6 +517,21 @@
 	/* tin tức  */
 	#page_1{
 		padding:50px 0 50px;
+	}
+	/* lien hệ */
+	.right_fot, .left_fot{
+		width: 90%;
+	}
+	.left_fot{
+		padding-right:0;
+	}
+	.form-group {
+		width: 100% !important;
+		margin: auto;
+		padding: 2rem;
+	}
+	#contact-form{
+		padding:0 2rem;
 	}
         
 }@media all and (max-width: 768px) {
@@ -635,6 +684,15 @@
 		margin-left: 1rem;
 		margin-top: 2rem;
 	}
+	/* lien hệ */
+	.form-group {
+		width: 100% !important;
+		margin: auto;
+		padding: 2rem;
+	}
+	#contact-form{
+		padding:0 2rem;
+	}
 	
 }
 @media all and (max-width: 680px) {
@@ -777,6 +835,9 @@
 		margin-top:2rem;
 		width: 100%;
 	}
+	.video_content{
+		font-size: 12px !important;
+	}
 	.left_fot {
 	    width: 100%;
 	    float: left;
@@ -787,7 +848,7 @@
 	    width: 100%;
 	    float: left;
 	    overflow: hidden;
-		padding-right:2rem;
+		
 		margin-top:0;
 	}
 	form#_frm_contact {
@@ -998,11 +1059,26 @@
 	.list_product {
 		padding-left: 0rem;
 	}
+	/* tin tức */
+	.list_news {
+		display: flex;
+		margin-top: 7rem ;
+	}
+	.list_news2{
+		margin-top: 0rem ;
+	}
+	.title_news{
+		font-size: 12px;
+	}
+	
 	/* lien hệ */
 	.form-group {
-		width: 100%;
+		width: 100% !important;
 		margin: auto;
-		padding: 1rem;
+		padding: 2rem;
+	}
+	#contact-form{
+		padding:0 2rem;
 	}
 
 }@media all and (max-width: 480px) {
@@ -1058,13 +1134,17 @@
 	.menu_logo {
 		margin: 10px 5px;
 	}
+	/* tin tức */
+	.list_news {
+		display: block;
+		margin-top: 7rem ;
+	}
 	/* lien hệ */
 	.form-group {
-		width: 100%;
+		width: 100% !important;
 		margin: auto;
 		padding: 1rem;
 	}
-
 	
 }
 
@@ -1134,7 +1214,7 @@
 		padding-bottom:2rem;
 	}
 	.right_fot{
-		padding-right:2rem;
+		padding-right:0rem;
 		margin-top:0;
 	}
 	.company_nemoviz {
@@ -1165,6 +1245,11 @@
 	.product_company ul {
 		padding: 1rem 3rem;
 	}
+	.contact_company h3{
+		text-align: start;
+		color:#ffff;
+	  padding-left: 2rem;
+	}
 	.list_product {
 		padding-left: 0rem;
 	}
@@ -1190,6 +1275,7 @@
 	/* tin tức */
 	.list_news {
 		display: block;
+		margin-top:7rem;
 	}
 	.item_news{
 		width: 100%;
@@ -1231,10 +1317,11 @@
 	}
 	/* lien hệ */
 	.form-group {
-		width: 100%;
+		width: 100% !important;
 		margin: auto;
 		padding: 1rem;
 	}
+
 
 
 }@media all and (max-width: 320px) {
@@ -1344,6 +1431,7 @@
 	.item-slide {
 		width: 100%;
 		margin-top:2rem;
+		padding-right:2rem;
 	}
 	.page_item{
 		display: block;
@@ -1352,6 +1440,7 @@
 	/* tin tức */
 	.list_news {
 		display: block;
+		margin-top: 7rem;
 	}
 	.item_news{
 		width: 100%;
@@ -1392,8 +1481,11 @@
 		margin-top:2rem;
 	}
 	/* lien hệ */
+	.right_fot{
+		padding-right:0;
+	}
 	.form-group {
-		width: 100%;
+		width: 100% !important;
 		margin: auto;
 		padding: 1rem;
 	}

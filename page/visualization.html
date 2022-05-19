@@ -171,13 +171,7 @@
         <div id="slider_img">
             <div class="slider-gallery">
                 <div class="box_gallery" style="display: none;">
-                    <!-- <div class="img">
-                        <video width="400" controls>
-                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
-                            Your browser does not support HTML video.
-                          </video>
-                    </div> -->
+                   
                     <img src="../img/1.jpg" class="anh_slide">
                     <div class="text_slide">
                         <div class="center_text">
@@ -1199,7 +1193,7 @@
 </div>
 
             <!-- /WhatsHelp.io widget -->
-            <script type='text/javascript' src='js/map_3d_2.js'></script>
+            <script type='text/javascript' src='../js/map_3d_2.js'></script>
             <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2Zb2vY8-t_9BUYqFFjc9LQiNWUZPLft4&callback=initialize" async="" defer="defer" type="text/javascript"></script>-->
 
             <script type="text/javascript">
@@ -1219,61 +1213,23 @@
                         c = currentScrollTop;
                     });
                 });
-                var map;
+               
 
-                function initialize() {
-                    var myLatlng = new google.maps.LatLng(16.091156, 108.227920);
-                    var myOptions = {
-                        zoom: 20,
-                        center: myLatlng,
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-
-                    }
-
-                    map = new google.maps.Map(document.getElementById("div_id"), myOptions);
-                    var text;
-                    text = "<img class='logo_map' src='images/logo_map.svg'>";
-                    var infowindow = new google.maps.InfoWindow({
-                        content: text,
-                        size: new google.maps.Size(100, 50),
-                        position: myLatlng
-                    });
-                    infowindow.open(map);
-                    var marker = new google.maps.Marker({
-                        position: myLatlng,
-                        map: map,
-                        title: ""
-                    });
-                }
-                var stylez = [{
-                    featureType: "all",
-                    elementType: "all",
-                    stylers: [{
-                            saturation: -100
-                        } // <-- THIS
-                    ]
-                }];
-
-                $(document).ready(function() {
-                    //initialize();
-                });
-
-
-                $(".click_video").click(function() {
-                    showLoader();
-                    var element = $(this);
-                    $.ajax({
-                        url: '/action.php',
-                        method: "POST",
-                        data: 'url=open_video',
-                        dataType: 'html',
-                        success: function(data) {
-                            $('#myModal_video').html(data);
-                            $(".fade").addClass("in");
-                            closeLoader();
-                        }
-                    })
-                });
+                // $(".click_video").click(function() {
+                //     showLoader();
+                //     var element = $(this);
+                //     $.ajax({
+                //         url: '/action.php',
+                //         method: "POST",
+                //         data: 'url=open_video',
+                //         dataType: 'html',
+                //         success: function(data) {
+                //             $('#myModal_video').html(data);
+                //             $(".fade").addClass("in");
+                //             closeLoader();
+                //         }
+                //     })
+                // });
             </script>
             <script async src="../js/youtube_2.js"></script>
             <script async custom-element="amp-youtube" src="../js/youtube_1.js"></script>
@@ -1284,7 +1240,7 @@
             <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
             <script src="../js/jquery.menu-aim.js"></script>
             <!-- menu aim -->
-            <script src="js/main.js"></script>
+            <script src="../js/main.js"></script>
             <!-- Resource jQuery -->
             <script type="text/javascript" src="../js/fancy2.js"></script>
             <script type="text/javascript" src="../js/fancy1.js"></script>
@@ -1296,7 +1252,7 @@
 
 
 </body>
-<script>
+<!-- <script>
     ! function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0],
             p = /^http:/.test(d.location) ? 'http' : 'https';
@@ -1312,7 +1268,7 @@
     {
         lang: 'vi'
     }
-</script>
+</script> -->
 
 
 <!-- Mirrored from vr360.com.vn/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 May 2022 07:32:18 GMT -->
