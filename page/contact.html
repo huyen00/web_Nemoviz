@@ -147,7 +147,7 @@
                 <div class="row">
                     <div class="col-lg-12 single_page_contact">
                         <h1 class="title">Liên Hệ Ngay</h1>
-                        <hr class="line">
+                        <hr class="line" style="padding-bottom:1rem">
                         <span class="content_contact"> Để đưa các dự án Bất động sản của bạn hòa mình vào thế giới ảo </span>
                             <button class="btn_hotline">Hotline : 0868 577 199</button>
                             <span class="title_form" >Hoặc liên hệ theo form:</span>
@@ -157,25 +157,18 @@
                     
                 </div>
                 <div class="form_contact">
-                    <form id="contact-form" action="message/send" method="post" enctype="multipart/form-data" novalidate="novalidate">
-                        <input type="hidden" name="_token" value="XlcjXeEL0VvclzJqDG3B1MFfFg7eo2LliMmwtyOR">
+                    <form id="contact-form" action="message/send" method="post" enctype="multipart/form-data" novalidate="novalidate">          
                         <div class="form-group">
-                            <input type="text" name="contact_name" id="message_name" class="form-control input_contact" placeholder="First Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="contact_email" id="message_email" class="form-control" placeholder="Last Name">
+                            <input type="text" name="contact_email" id="message_email" class="form-control" placeholder="Your Name">
                         </div>   
                         <div class="form-group">
                             <input type="text" name="contact_phone" id="message_phone" class="form-control" placeholder="Email Address">
                         </div>   
                         <div class="form-group">
                             <input type="text" name="contact_phone" id="message_phone" class="form-control" placeholder="Number Phone">
-                        </div>  
+                        </div>                        
                         <div class="form-group">
-                            <input type="text" name="contact_phone" id="message_phone" class="form-control" placeholder="Company">
-                        </div>  
-                        <div class="form-group">
-                            <textarea class="form-control" name="contact_message" id="message_message" placeholder="Your Message" rows="8" cols="4"></textarea>
+                            <textarea class="form-control" name="contact_message" id="message_message" placeholder="Your Message" rows="5" cols="4"></textarea>
                         </div>  
                         <div style="text-align:center">
                             <button type="submit" class="btn btn-cta text-uppercase" style="">Gửi Cho chúng tôi</button>      

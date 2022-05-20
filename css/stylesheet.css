@@ -23,7 +23,7 @@
 /* page 2 */
 .title{
   text-align: center !important;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -26911,7 +26911,7 @@ footer .contact_me p a {
 
 }
 .btn-cta{
-
+ padding:1rem;
 }
 .left_fot {
     width: 40%;
