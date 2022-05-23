@@ -30525,6 +30525,11 @@ a.colorch:hover {
   color:red;
 }
 
+/* item_product */
+.page_product{
+    padding-top:11rem;
+}
+
 /* reponsive */
 @media only screen and (max-width:739px){
   /* trang chủ */
