@@ -196,6 +196,44 @@ $('.slider_product').slick({
      ]
 });
 
+$('.page_item_3drenders ').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows: true,
+  autoplay: true,
+  autoplaySpeed: 2500,
+  infinite: false,
+  dots: false,
+  responsive: [
+       {
+         breakpoint: 1025,
+         settings: {
+           arrows: false,
+         }
+       },
+       {
+         breakpoint: 801,
+         settings: {
+           slidesToShow: 2,
+           arrows: false,
+         }
+       },
+       {
+         breakpoint: 600,
+         settings: {
+           slidesToShow: 2,
+           arrows: false,
+         }
+       },
+       {
+         breakpoint: 481,
+         settings: {
+           slidesToShow: 1,
+           arrows: false,
+         }
+       }
+     ]
+});
 $('.slider_doitac').slick({
    slidesToShow: 5,
    slidesToScroll: 1,
