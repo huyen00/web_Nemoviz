@@ -103,6 +103,8 @@
 .item-slide img{
   width: 100%;
   transition: 0.5s;
+  height: 200px;
+    object-fit: cover;
 }
 .item-slide img:hover{
   transform: scale(1.1);
@@ -123,6 +125,9 @@
   /* width: 31%; */
 }
 /* dien hoa 3d */
+.slick-slide{
+  margin-right:2rem;
+}
 .slick-slider .slick-list, .slick-slider .slick-track {
   -webkit-transform: translate3d(0,0,0);
   -moz-transform: translate3d(0,0,0);
@@ -228,7 +233,7 @@
   display: flex;
 }
 .company{
-  background-color: #012e64;
+  background-color: #16495c;
   color:rgb(210, 207, 207);
   padding:3rem 0
 }
@@ -5303,7 +5308,7 @@ textarea {
 
 a {
 
-  color: #337ab7;
+  color: #ffff;
 
   text-decoration: none;
 
@@ -26430,9 +26435,9 @@ i.fas.fa-bars {
 	margin-left: 5px;
 }
 .box_cat:hover {
-	background: #002A5E;
+	background: #16495c;
 	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
-	border: 2px solid #002A5E;
+	border: 2px solid #16495c;
 }
 .box_cat:hover .readmore {
 	display: block;
@@ -26492,7 +26497,7 @@ i.fas.fa-bars {
 }
 #page_2 {
     padding: 50px 0;
-    background: #002A5E;
+    background:#16495c;
     color: white;
     position: relative;
 }
@@ -26581,9 +26586,9 @@ i.fas.fa-bars {
     height: 100%;
 }
 .slick-slide.slick-current.slick-active .box_cat {
-    background: #002A5E;
+    background: #16495c;
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
-    border: 2px solid #002A5E;
+    border: 2px solid #16495c;
 }
 .hover_business {
     display: none;
@@ -26780,6 +26785,7 @@ i.fas.fa-bars {
 }
 #page_3 {
     padding-top: 15px;
+    background-color: aliceblue;
 }
 
 
@@ -26832,7 +26838,7 @@ i.fas.fa-bars {
 }
 #page_6 {
     padding: 40px 0;
-    background: #ffffff;
+    background: aliceblue;
 }
 
 .img_doitac {
@@ -26972,7 +26978,7 @@ iframe.fb_link {
     padding: 10px;
     color: white;
     font-family: 'SFU_LI';
-    background: #002A5E;
+    background: #1b3c48;
     padding-left: 20px;
 }
 .left_end {
@@ -27312,7 +27318,7 @@ iframe.fb_link {
     color: white;
 }
 .navShadow_1 div#header {
-    background: #002a63;
+    background: #16495c;
     border-bottom: 0;
 }
 .navShadow_1 {
@@ -27324,7 +27330,7 @@ iframe.fb_link {
     background: black;
 }
 .read_view:hover {
-    background: #002a63;
+    background: #16495c;
 }
 
 #page_con {
@@ -28140,7 +28146,7 @@ hr {
 }
 
 div#page_8 {
-    background: #002a63;
+    background: #16495c;
     color: #ffffff;
     padding: 50px 10px;
 }
@@ -30426,7 +30432,7 @@ a.colorch:hover {
   color: #7e7b73;
 }
 .menu_news{
-  color:#002a63;
+  color:rgb(138 109 59);
 }
 .list_news{
   display: flex;
@@ -30586,3 +30592,52 @@ a.colorch:hover {
     display: block !;
   }
 }
+
+
+/* VIDEO- DIEN HOA 3D */
+.icon_video{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    color: white;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #08000073;
+ 
+}
+.icon_video i{
+  position: absolute;
+  top:50%;
+  font-size: 3rem;
+}
+.img_page_video{
+  position: relative;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  
+ 
+}
+
+#myVideo{
+  width: 100%;
+  object-fit: cover;
+  /
+  
+}
+/* .html5-video-container .video-stream{
+  width: 100% !important;
+  left:0 !important;
+}
+video .video-stream .html5-main-video{
+  width: 100% !important;
+  left:0 !important;
+}
+video{
+  width: 100% !important;
+  left:0 !important;
+} */

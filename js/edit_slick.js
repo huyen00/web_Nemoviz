@@ -81,10 +81,11 @@ $('.slider_business').slick({
 
 $('.slider_news').slick({
    slidesToShow: 2,
-   slidesToScroll: 1,
+   slidesToScroll: 2,
    arrows: true,
    autoplay: true,
-   autoplaySpeed: 2500,
+  //  rows:2,
+   autoplaySpeed: 3500,
    infinite: true,
    dots: false,
    responsive: [
@@ -162,6 +163,8 @@ $('.slider_product').slick({
   slidesToScroll: 1,
   arrows: true,
   autoplay: true,
+  rows:2,
+  margin:10,
   autoplaySpeed: 2500,
   infinite: true,
   dots: false,
