@@ -26290,7 +26290,7 @@ body {
     color: white;
 }
 .watch_video:hover {
-    background: #0755b5;
+    background: #fda535;
 }
 .show_lang {
     position: absolute;
@@ -30612,6 +30612,7 @@ a.colorch:hover {
   position: absolute;
   top:50%;
   font-size: 3rem;
+  left: 50%;
 }
 .img_page_video{
   position: relative;
@@ -30626,7 +30627,7 @@ a.colorch:hover {
 #myVideo{
   width: 100%;
   object-fit: cover;
-  /
+  
   
 }
 /* .html5-video-container .video-stream{
