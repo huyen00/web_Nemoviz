@@ -1,4 +1,6 @@
-
+.bg_header_page{
+  background: #16495c;
+}
 .active{
   color:rgb(219, 190, 4) !important;
  font-weight: 900;
@@ -26290,7 +26292,7 @@ body {
     color: white;
 }
 .watch_video:hover {
-    background: #fda535;
+    background: #d63636b8;
 }
 .show_lang {
     position: absolute;
@@ -26372,7 +26374,7 @@ i.fas.fa-bars {
     margin-right: 13px;
 }
 .watch_video {
-	background: #F01716;
+	background: #fda535;
 	color: white;
 	padding: 12px 47px;
 	text-transform: uppercase;
