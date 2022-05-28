@@ -130,6 +130,21 @@
 .slick-slide{
   margin-right:2rem;
 }
+
+/* trang chu */
+.title-app:hover{
+  color:rgb(219, 190, 4) !important;
+}
+.title_product:hover{
+  color:rgb(219, 190, 4);
+}
+/* tin tuwsc */
+.product h4:hover{
+  color:rgb(219, 190, 4);
+}
+.title_news:hover{
+  color:rgb(219, 190, 4);
+}
 .slick-slider .slick-list, .slick-slider .slick-track {
   -webkit-transform: translate3d(0,0,0);
   -moz-transform: translate3d(0,0,0);
