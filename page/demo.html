@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="../css/slick/slick-theme.css">
     <!-- <link rel="stylesheet" href="/use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
     <link rel='stylesheet' href='../cdn.jsdelivr.net/gh/rstacruz/nprogress%40master/nprogress.css'>
+    <link rel="stylesheet" href="../css/slick/css.css">
     <link rel="preload" as="style" onload="this.rel='stylesheet'" href="../css/stylesheet.css" type="text/css" media="all">
     <link rel="stylesheet" href="../css/responsive/responsive.css" type="text/css" media="all">
 
@@ -30,47 +31,9 @@
 
 
     <link rel="stylesheet" href="../css/menu_drop.css">
-    <!-- Resource style -->
-    
-    <!-- Facebook Pixel Code -->
-    <!-- <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            '../connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '748648746482410');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=748648746482410&amp;ev=PageView&amp;noscript=1"
-/></noscript> -->
-    <!-- End Facebook Pixel Code -->
+  
 </head>
-<!-- <div id="fb-root"></div>
-<script>
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "../connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script> -->
+
 
 <body>
    
@@ -103,7 +66,7 @@
 
                                     </li>
                                     <li class="menu__item to-left">
-                                        <a href="../page/news.html" class="menu__link menu_news active">Tin Tức </a>
+                                        <a href="../page/demo.html" class="menu__link menu_news active">Tin Tức </a>
                                     </li>
 
 
@@ -424,44 +387,7 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- <script>
-                function getDataProjectList(url, tabId = 0) {
-                    $.ajax({
-                        url: url,
-                        method: "GET",
-                        dataType: 'html',
-                        success: function(data) {
-                            $('#project-list').html(data);
-                            var $tabBox = $('#tab-box');
-                            $tabBox.find('a').removeClass('active_pag');
-                            $tabBox.find('a.tab_' + tabId).addClass('active_pag');
-                        }
-                    })
-                }
-
-                function getParameterByName(name, url) {
-                    if (!url) url = window.location.href;
-                    name = name.replace(/[\[\]]/g, "\\$&");
-                    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-                        results = regex.exec(url);
-                    if (!results) return null;
-                    if (!results[2]) return '';
-                    return decodeURIComponent(results[2].replace(/\+/g, " "));
-                }
-
-                $(function() {
-                    getDataProjectList('actionf08e.html?url=project_list');
-
-                    $(document).on('click', '#pagination a', function(e) {
-                        e.preventDefault();
-                        var url = $(this).attr('href');
-                        var tab_id = getParameterByName('tab_id', url);
-                        getDataProjectList(url, tab_id);
-                    })
-
-                })
-            </script> -->
+           
 
 
 <div class="company">
@@ -570,7 +496,7 @@
             <script type="text/javascript" src="../js/jquery_3.2.1.js"></script>
             <script type="text/javascript" src="../js/bootstrap/bootstrap.min.js"></script>
             <script type="text/javascript" src="../js/menu_header.js"></script>
-            <script type="text/javascript" src="../js/edit_js.js"></script>
+            <!-- <script type="text/javascript" src="../js/edit_js.js"></script> -->
             <script src="../js/slick.min.js"></script>
             <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
             <script src="../js/jquery.menu-aim.js"></script>
@@ -587,73 +513,10 @@
             <!-- Modernizr -->
 
             <script type="text/javascript" src="../js/init.js"></script>
-            <!-- <script src="../js/lazysizes.min.js" async></script> -->
-
             
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    'use strict';
-                    var c, currentScrollTop = 0,
-                        navbar = $('#header');
-                    $(window).scroll(function() {
-                        var a = $(window).scrollTop();
-                        var b = navbar.height();
-                        currentScrollTop = a;
-                        if (c < currentScrollTop && a > b + b) {
-                            navbar.addClass("scrollUp");
-                        } else if (c > currentScrollTop && !(a <= b)) {
-                            navbar.removeClass("scrollUp");
-                        }
-                        c = currentScrollTop;
-                    });
-                });
-                var map;
-
-                $(document).ready(function() {
-                
-                });
-
-
-                $(".click_video").click(function() {
-                    showLoader();
-                    var element = $(this);
-                    $.ajax({
-                        url: '/action.php',
-                        method: "POST",
-                        data: 'url=open_video',
-                        dataType: 'html',
-                        success: function(data) {
-                            $('#myModal_video').html(data);
-                            $(".fade").addClass("in");
-                            closeLoader();
-                        }
-                    })
-                });
-
-            </script>
     </div>
 
 
 </body>
-<!-- <script>
-    ! function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0],
-            p = /^http:/.test(d.location) ? 'http' : 'https';
-        if (!d.getElementById(id)) {
-            js = d.createElement(s);
-            js.id = id;
-            js.src = p + '://platform.twitter.com/widgets.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }
-    }(document, 'script', 'twitter-wjs');
-</script>
-<script src="../apis.google.com/js/platform.js" async defer>
-    {
-        lang: 'vi'
-    }
-</script> -->
-
-
-<!-- Mirrored from vr360.com.vn/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 May 2022 07:32:18 GMT -->
 
 </html>

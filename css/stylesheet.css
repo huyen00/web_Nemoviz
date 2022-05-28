@@ -1,3 +1,26 @@
+/* logo */
+#header {
+  transition: 0.5s;
+}
+body {
+	line-height: 23px;
+	color: #444444;
+	font-family: 'SFU';
+	font-size: 17px;
+}
+.logo {
+	padding: 5px 0 5px 25px;
+	float: left;
+	width: 25%;
+}
+.logo img {
+  width: 70px;
+}
+.nav_header {
+	float: left;
+	width: 75%;
+}
+
 .bg_header_page{
   background: #16495c;
 }
@@ -123,9 +146,7 @@
 }
 
 /* page 8 */
-.item-slide{
-  /* width: 31%; */
-}
+
 /* dien hoa 3d */
 .slick-slide{
   margin-right:2rem;
@@ -26147,7 +26168,7 @@ body .ui-tooltip {
     text-decoration: blink !important;
 }
 a {
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 a:hover {
     text-decoration: blink !important;
@@ -26159,9 +26180,7 @@ a:hover {
 .scrollUp {
   transform: translateY(-100px) !important;
 }
-#header {
-    transition: 0.5s;
-}
+
 @font-face {
     font-family: 'SFU';
     src: url('../fonts/SFUIDisplay-Regular.eot');
@@ -26276,21 +26295,7 @@ a:hover {
   opacity: 1 !important;
   font-weight: bold;
 }
-body {
-	line-height: 23px;
-	color: #444444;
-	font-family: 'SFU';
-	font-size: 17px;
-}
-.logo {
-	padding: 5px 0 5px 25px;
-	float: left;
-	width: 25%;
-}
-.nav_header {
-	float: left;
-	width: 75%;
-}
+
 .lang_show {
     float: left;
     background: #0755B5;
@@ -26621,9 +26626,9 @@ i.fas.fa-bars {
     padding: 25px;
     animation: imgs 0.3s ease;
 }
-.menu__item a:hover {
+__item a:hover {
 	opacity: 1
-}
+}.menu
 @keyframes imgs {
     0% {
         opacity: 0;
@@ -27820,11 +27825,7 @@ display: flex;
 .img_brand img {
     width: 100%;
 }
-.content_news {
-    /* width: 65%;
-    float: left;
-    padding-right: 30px; */
-}
+
 .sanpham_khac {
     width: 35%;
     float: left;
@@ -28174,9 +28175,7 @@ div#page_8 a {
     color: #ffffff;
 }
 
-.logo img {
-    width: 70px;
-}
+
 .url_world_in_3d{
   background-color: #212121;
   background-image: url(../images/loading.html);
@@ -28572,7 +28571,7 @@ ul.menu__sub-menu.open::after {
         -webkit-padding-start: 0px;
         -khtml-padding-start: 0px;
         -o-padding-start: 0px;
-        padding-start: 0px;
+       
     }
     .menu ul > .menu__sub-menu__item.to-left > ul {
         right: -300px;
@@ -30437,9 +30436,7 @@ a.colorch:hover {
   justify-content: center;
   margin-top:3rem;
 }
-.page_item .item-slide{
-  /* box-shadow: 10px 10px 5px 5px #ffff; */
-}
+
 /* tin tức */
 .tab_content .product{
   text-align: center;

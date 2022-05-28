@@ -309,10 +309,7 @@
                 </div>
             </div>
             
-            <!-- /WhatsHelp.io widget -->
-            <script type='text/javascript' src='../js/map_3d_2.js'></script>
-         
-
+          
             <script type="text/javascript">
                 $(document).ready(function() {
                     'use strict';
@@ -330,29 +327,54 @@
                         c = currentScrollTop;
                     });
                 });
-               
+                var map;
+
+                $(document).ready(function() {
+                
+                });
+
+
+                $(".click_video").click(function() {
+                    showLoader();
+                    var element = $(this);
+                    $.ajax({
+                        url: '/action.php',
+                        method: "POST",
+                        data: 'url=open_video',
+                        dataType: 'html',
+                        success: function(data) {
+                            $('#myModal_video').html(data);
+                            $(".fade").addClass("in");
+                            closeLoader();
+                        }
+                    })
+                });
+
             </script>
-            <script async src="../js/youtube_2.js"></script>
-            <script async custom-element="amp-youtube" src="../js/youtube_1.js"></script>
+            
+            <!-- <script async src="../js/youtube_2.js"></script>
+            <script async custom-element="amp-youtube" src="../js/youtube_1.js"></script> -->
             <script type="text/javascript" src="../js/bootstrap/bootstrap.min.js"></script>
             <script type="text/javascript" src="../js/menu_header.js"></script>
             <script type="text/javascript" src="../js/edit_js.js"></script>
-            <script src="../js/slick.min.js"></script>
-            <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+            <!-- <script src="../js/slick.min.js"></script> -->
+            <!-- <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script> -->
             <script src="../js/jquery.menu-aim.js"></script>
             <!-- menu aim -->
             <script src="../js/main.js"></script>
             <!-- Resource jQuery -->
-            <script type="text/javascript" src="../js/fancy2.js"></script>
-            <script type="text/javascript" src="../js/fancy1.js"></script>
-            <script type="text/javascript" src="../js/edit_slick.js"></script>
+            <!-- <script type="text/javascript" src="../js/fancy2.js"></script>
+            <script type="text/javascript" src="../js/fancy1.js"></script> -->
+            <!-- <script type="text/javascript" src="../js/edit_slick.js"></script> -->
             <script type="text/javascript" src="../js/jquery.boxes.js"></script>
             <script type="text/javascript" src="../js/jquery.boxes.repopup.js"></script>
             <script src="../js/main.js"></script>
             <script src="../WOW-master/dist/wow.min.js"></script>
+
+            
             <script>
                 new WOW().init();
-                </script>
+            </script>
     </div>
 
 
