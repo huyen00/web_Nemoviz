@@ -210,6 +210,12 @@ body {
   padding:150px 0 50px;
 }
 /* page_item_news */
+.link_news a{
+  color:#551A8B !important;
+}
+.img_news{
+  width:100%;
+}
 .news_item{
   margin-top:10rem;
   padding:3rem 0;
@@ -224,7 +230,7 @@ body {
   padding-left: 3rem;
 }
 .news_item_right{
-  width: 35%;
+  width: 40%;
 }
 .list_item_right{
   border: 1px solid rgba(0,0,0,.1);
@@ -237,6 +243,91 @@ body {
 .link_news{
   border-bottom: 1px solid rgba(0,0,0,.1);
   padding-top:2rem;
+}
+.title_related_news{
+  color:#002A5E;
+  font-weight: 600;
+  margin-top:3rem;
+}
+.related_news{
+  padding-left :0 ;
+}
+.col_related_news{
+  border :1px solid rgba(0,0,0,.1);
+  padding:1.5rem;
+  margin-top:2rem;
+}
+.blog_post_news{
+  border-top :1px solid rgba(0,0,0,.1);
+  margin-top:3rem;
+}
+.item_blog_icon{
+  display: flex;
+}
+.item_blog_icon li{
+  padding-right:1.5rem;
+}
+.blog_share{
+  display: flex;
+  margin-top:2rem;
+
+}
+.blog_icon{
+  color:#000;
+}
+.blog_nav {
+  margin-top: 5rem;
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+}
+.blog_nav span{
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1.85em;
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: #000 ;
+    /* transition: color .3s,background-color .3s; */
+}
+.blog_previous , .blog_next{
+  border-radius:30px;
+  border :1px solid rgba(0,0,0,.1);
+  padding: 0.5em 1.5em;
+  background-color: #f5f7fa;
+}
+.prev i{
+  padding-right:1rem;
+}
+
+.blog_previous:hover{
+  background-color: #000000;
+}
+.blog_previous:hover .prev{
+  color:#ffff;
+}
+.blog_previous:hover .title_prev{
+  color:#ffff;
+}
+.blog_next:hover{
+  background-color: #000000;
+}
+.blog_next:hover .next{
+  color:#ffff;
+}
+.blog_next:hover .title_prev{
+  color:#ffff;
+}
+.next i{
+  padding-left:1rem;
+}
+
+.blog_next{
+  float:right;
+}
+.blog_nav a{
+  color:black;
 }
 /* footer */
 #contact{
@@ -30644,15 +30735,4 @@ a.colorch:hover {
   
   
 }
-/* .html5-video-container .video-stream{
-  width: 100% !important;
-  left:0 !important;
-}
-video .video-stream .html5-main-video{
-  width: 100% !important;
-  left:0 !important;
-}
-video{
-  width: 100% !important;
-  left:0 !important;
-} */
+/* item-news */
