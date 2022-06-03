@@ -45,6 +45,9 @@ body {
   width: 90px;
   padding-bottom: 2rem;
 }
+.icon_language{
+  height:25px;
+}
 /* page 2 */
 .title{
   text-align: center !important;
