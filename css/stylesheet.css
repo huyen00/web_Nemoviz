@@ -27097,6 +27097,9 @@ iframe.fb_link {
     font-family: 'SFU_LI';
     background: #002A5E;
     padding-left: 20px;
+    /* position: fixed;
+    width: 100%;
+    bottom: 0; */
 }
 .left_end {
     float: left;
@@ -30581,12 +30584,13 @@ a.colorch:hover {
   bottom: 4%;
   padding:2rem;
   color:#ffff;
-
+  font-size: 16px;
 }
 .item_news1{
   width: 32.6%;
   position: relative;
   overflow: hidden;
+  padding: 0.6rem 0.2rem;
   
 }
 /* .item_news1 img{
@@ -30684,7 +30688,7 @@ a.colorch:hover {
 }
 /* item_product_tour */
 .page_product1{
-  padding-top:11rem;
+  /* padding-top:11rem; */
 }
 
 /* reponsive */
@@ -30736,4 +30740,75 @@ a.colorch:hover {
   
   
 }
-/* item-news */
+/* item-video, image, tour */
+.page_product1 h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.page_video h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* .bg img{
+  width: 100%;
+} */
+.page_product_video{
+  height: 90vh;
+  padding-right: 15px;
+    padding-left: 15px
+}
+.background-tour{
+  background-image: url('../img/ariaDN.png');
+  width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-right: 0px;
+    padding-left: 0px
+}
+.bg{
+ width: 100%;
+ height:100%;
+ /* background-color: #0000003d; */
+ z-index: 111111;
+}
+#load-iframe{
+  display: table;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-tour{
+  /* top: 40%;
+    position: absolute;
+    left: 50%; */
+
+    min-width: 150px;
+    min-height: 150px;
+    width: 150px;
+    height: 150px;
+    background: rgba(0,0,0,.3);
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 60px;
+    margin-bottom: 60px;
+    padding-left: 24px;
+    padding-right: 18px;
+    position: relative;
+    top:40%;
+    left:35%;
+    margin-left:10%;
+}
+.btn-tour i{
+  top: 30%;
+    left: 35%;
+    position: absolute;
+}
+.show-iframe{
+  display: none;
+}
