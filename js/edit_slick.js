@@ -162,7 +162,7 @@ $('.slider_product').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   arrows: true,
-  autoplay: true,
+  autoplay: false,
   rows:2,
   margin:10,
   autoplaySpeed: 2500,
@@ -337,4 +337,22 @@ $('.slider_brand').slick({
    autoplaySpeed: 1500,
    infinite: true,
    dots: false
+});
+
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  autoplay:true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: false,
+  centerMode: true,
+  focusOnSelect: true,
+  autoplay:true
 });

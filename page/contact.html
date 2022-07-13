@@ -29,7 +29,7 @@
     <link rel='stylesheet' href='../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css'>
     <link rel="stylesheet" href="../WOW-master/css/libs/animate.css">
 
-
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> 
     <link rel="stylesheet" href="../css/menu_drop.css">
     <!-- Resource style -->
     <script src="../js/modernizr.js"></script>
@@ -97,7 +97,7 @@
 
                                     </li>
                                     <li class="menu__item to-left">
-                                        <a href="../page/news.html" class="menu__link menu_news ">Tin Tức </a>
+                                        <a href="../page/news1.html" class="menu__link menu_news ">Tin Tức </a>
                                     </li>
 
 
@@ -150,6 +150,16 @@
             </header>
         </div>
         <!-- .container -->
+        <div class="about-us">
+            <div class="container-fluid">
+                <div class="main-about">
+                    <div class="background-aboutus"></div>
+                    <div class="row content-aboutus">
+                        <h1 class="title">about us</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="page_contact" style="background: aliceblue;">
             <div class="container">
                 <div class="row">
@@ -186,6 +196,37 @@
                 </div>
             </div>
         </div>
+        <div class="company-overview">
+            <div class="container">
+                <div class="company-gallery">
+                    <div class="text-company-overview">
+                        <h1 class="title  text-black" data-aos="fade-right">Công ty cổ phần Nemoviz</h1>
+                        <span class="text1 text-font" >Holomia là nền tảng thực tế ảo cho phép bạn học hỏi
+                             và trải nghiệm một cách trực quan qua góc nhìn  VR, 360 độ .
+                            Holomia - Change the world you see.</span>
+                        
+                    </div>
+                    <div class="img-company-overview" data-aos="fade-left">
+                        <div class="slider-for">
+                            <img src="../assets/img/1.jpg" alt="">
+                            <img src="../assets/img/99.jpg" alt="">
+                            <img src="../assets/img/10.jpg" alt="">
+                            <img src="../assets/img/13.jpg" alt="">
+                        </div>
+                        <div class="slider-nav">
+                            <img src="../assets/img/1.jpg" alt="">
+                            <img src="../assets/img/99.jpg" alt="">
+                            <img src="../assets/img/10.jpg" alt="">
+                            <img src="../assets/img/13.jpg" alt="">
+                            
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+            
+        </div>
+        
 
         <style>
             .single_page_contact{
@@ -214,7 +255,7 @@
                border-radius: 8px;
             }
             .page_contact{
-                padding-top: 12rem;
+                padding-top: 3rem;
             }
             .input_contact{
                 margin: auto;
@@ -255,45 +296,31 @@
                                 </li>
                                 <li>
                                     <i class="fas fa-envelope item-icon"></i>
-                                    <span>info@nemoviz.com</span>
+                                    <a href="mailto:info@nemoviz.com"><span>info@nemoviz.com</span></a>
                                 </li>
                                 <li>
                                     <i class="fas fa-phone-alt item-icon "></i>
-                                    <span>Hotline: 0868 577 199</span>
+                                    <a href="tel:0868577199"><span>Hotline: 0868 577 199</span></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="product_company">
-                            <h3>Diễn Họa 3D</h3>
+                            <a href="../page/visualization.html"><h3>Diễn Họa 3D</h3></a>
                             <ul >
-                                <li class="list_product">
-                                    <a href="../page/visualization.html" class="product_footer">
-                                        <span >3D Renders</span>
-                                    </a>
-                                   <a href="../page/visualization.html" class="product_footer">
-                                        <span>3D Videos</span>
-                                   </a>
-                                   
-                                </li>
-                               
+                                <li class="list_product">          
+                                    <span >3D Renders</span>        
+                                    <span>3D Videos</span>
+                                </li>             
                             </ul>
                         </div>
                         <div class="product_company">
-                            <h3>Thực tế ảo</h3>
+                            <a href="../page/virtual_Reality.html"><h3>Thực tế ảo</h3></a>
                             <ul>
                                 <li class="list_product">
-                                    <a href="../page/virtual_Reality.html" class="product_footer">
-                                        <span >VR ShowRoom</span>
-                                    </a>
-                                   <a href="../page/virtual_Reality.html" class="product_footer">
-                                        <span>Future Home</span>
-                                   </a>
-                                   <a href="../page/virtual_Reality.html" class="product_footer">
-                                        <span >Tour 360</span>
-                                   </a>
-                                   <a href="../page/virtual_Reality.html" class="product_footer">
-                                        <span>Tour 3D</span>
-                                   </a>                                 
+                                    <span >VR ShowRoom</span>
+                                    <span>Future Home</span>
+                                    <span >Tour 360</span>
+                                    <span>Tour 3D</span>                                             
                                 </li>                              
                             </ul>
                         </div>
@@ -307,11 +334,7 @@
                             <div class="left_end">
                                 Copyright @ 2021 Nemoviz 3D Visualization for Real estate.
                             </div>
-                            <div class="right_end">
-                               <a href="../index.html"> <span>Giới Thiệu</span></a>
-                                <a href="../page/news.html"><span>Tin Tức</span></a>
-                                
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -319,22 +342,22 @@
             
           
             <script type="text/javascript">
-                $(document).ready(function() {
-                    'use strict';
-                    var c, currentScrollTop = 0,
-                        navbar = $('#header');
-                    $(window).scroll(function() {
-                        var a = $(window).scrollTop();
-                        var b = navbar.height();
-                        currentScrollTop = a;
-                        if (c < currentScrollTop && a > b + b) {
-                            navbar.addClass("scrollUp");
-                        } else if (c > currentScrollTop && !(a <= b)) {
-                            navbar.removeClass("scrollUp");
-                        }
-                        c = currentScrollTop;
-                    });
-                });
+                // $(document).ready(function() {
+                //     'use strict';
+                //     var c, currentScrollTop = 0,
+                //         navbar = $('#header');
+                //     $(window).scroll(function() {
+                //         var a = $(window).scrollTop();
+                //         var b = navbar.height();
+                //         currentScrollTop = a;
+                //         if (c < currentScrollTop && a > b + b) {
+                //             navbar.addClass("scrollUp");
+                //         } else if (c > currentScrollTop && !(a <= b)) {
+                //             navbar.removeClass("scrollUp");
+                //         }
+                //         c = currentScrollTop;
+                //     });
+                // });
                 var map;
 
                 $(document).ready(function() {
@@ -365,15 +388,17 @@
             <script type="text/javascript" src="../js/bootstrap/bootstrap.min.js"></script>
             <script type="text/javascript" src="../js/menu_header.js"></script>
             <script type="text/javascript" src="../js/edit_js.js"></script>
+        
             <!-- <script src="../js/slick.min.js"></script> -->
             <!-- <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script> -->
             <script src="../js/jquery.menu-aim.js"></script>
+            <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
             <!-- menu aim -->
             <script src="../js/main.js"></script>
             <!-- Resource jQuery -->
             <!-- <script type="text/javascript" src="../js/fancy2.js"></script>
             <script type="text/javascript" src="../js/fancy1.js"></script> -->
-            <!-- <script type="text/javascript" src="../js/edit_slick.js"></script> -->
+            <script type="text/javascript" src="../js/edit_slick.js"></script>
             <script type="text/javascript" src="../js/jquery.boxes.js"></script>
             <script type="text/javascript" src="../js/jquery.boxes.repopup.js"></script>
             <script src="../js/main.js"></script>
@@ -387,25 +412,5 @@
 
 
 </body>
-<!-- <script>
-    ! function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0],
-            p = /^http:/.test(d.location) ? 'http' : 'https';
-        if (!d.getElementById(id)) {
-            js = d.createElement(s);
-            js.id = id;
-            js.src = p + '://platform.twitter.com/widgets.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }
-    }(document, 'script', 'twitter-wjs');
-</script> -->
-<!-- <script src="../apis.google.com/js/platform.js" async defer>
-    {
-        lang: 'vi'
-    }
-</script> -->
-
-
-<!-- Mirrored from vr360.com.vn/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 May 2022 07:32:18 GMT -->
 
 </html>

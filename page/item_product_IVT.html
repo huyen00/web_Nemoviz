@@ -417,45 +417,31 @@
                                 </li>
                                 <li>
                                     <i class="fas fa-envelope item-icon"></i>
-                                    <span>info@nemoviz.com</span>
+                                    <a href="mailto:info@nemoviz.com"><span>info@nemoviz.com</span></a>
                                 </li>
                                 <li>
                                     <i class="fas fa-phone-alt item-icon "></i>
-                                    <span>Hotline: 0868 577 199</span>
+                                    <a href="tel:0868577199"><span>Hotline: 0868 577 199</span></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="product_company">
-                            <h3>Diễn Họa 3D</h3>
+                            <a href="../page/visualization.html"><h3>Diễn Họa 3D</h3></a>
                             <ul >
-                                <li class="list_product">
-                                    <a href="../page/visualization.html" class="product_footer">
-                                        <span >3D Renders</span>
-                                    </a>
-                                   <a href="../page/visualization.html" class="product_footer">
-                                        <span>3D Videos</span>
-                                   </a>
-                                   
-                                </li>
-                               
+                                <li class="list_product">          
+                                    <span >3D Renders</span>        
+                                    <span>3D Videos</span>
+                                </li>             
                             </ul>
                         </div>
                         <div class="product_company">
-                            <h3>Thực tế ảo</h3>
+                            <a href="../page/virtual_Reality.html"><h3>Thực tế ảo</h3></a>
                             <ul>
                                 <li class="list_product">
-                                    <a href="../page/virtual_Reality.html" class="product_footer">
-                                        <span >VR ShowRoom</span>
-                                    </a>
-                                   <a href="../page/virtual_Reality.html" class="product_footer">
-                                        <span>Future Home</span>
-                                   </a>
-                                   <a href="../page/virtual_Reality.html" class="product_footer">
-                                        <span >Tour 360</span>
-                                   </a>
-                                   <a href="../page/virtual_Reality.html" class="product_footer">
-                                        <span>Tour 3D</span>
-                                   </a>                                 
+                                    <span >VR ShowRoom</span>
+                                    <span>Future Home</span>
+                                    <span >Tour 360</span>
+                                    <span>Tour 3D</span>                                             
                                 </li>                              
                             </ul>
                         </div>
@@ -469,11 +455,7 @@
                             <div class="left_end">
                                 Copyright @ 2021 Nemoviz 3D Visualization for Real estate.
                             </div>
-                            <div class="right_end">
-                               <a href="../index.html"> <span>Giới Thiệu</span></a>
-                                <a href="../page/news.html"><span>Tin Tức</span></a>
-                                
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -484,22 +466,22 @@
          
 
             <script type="text/javascript">
-                $(document).ready(function() {
-                    'use strict';
-                    var c, currentScrollTop = 0,
-                        navbar = $('#header');
-                    $(window).scroll(function() {
-                        var a = $(window).scrollTop();
-                        var b = navbar.height();
-                        currentScrollTop = a;
-                        if (c < currentScrollTop && a > b + b) {
-                            navbar.addClass("scrollUp");
-                        } else if (c > currentScrollTop && !(a <= b)) {
-                            navbar.removeClass("scrollUp");
-                        }
-                        c = currentScrollTop;
-                    });
-                });
+                // $(document).ready(function() {
+                //     'use strict';
+                //     var c, currentScrollTop = 0,
+                //         navbar = $('#header');
+                //     $(window).scroll(function() {
+                //         var a = $(window).scrollTop();
+                //         var b = navbar.height();
+                //         currentScrollTop = a;
+                //         if (c < currentScrollTop && a > b + b) {
+                //             navbar.addClass("scrollUp");
+                //         } else if (c > currentScrollTop && !(a <= b)) {
+                //             navbar.removeClass("scrollUp");
+                //         }
+                //         c = currentScrollTop;
+                //     });
+                // });
                 $(document).ready(function(){
 	
                     $("#load-iframe").click(function(){
