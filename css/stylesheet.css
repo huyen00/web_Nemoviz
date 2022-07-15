@@ -30656,6 +30656,7 @@ a.colorch:hover {
 .product .main_news1{
   opacity: 1;
   background: rgba(18,16,47,0) none repeat scroll 0 0;
+  overflow: hidden;
 }
 .product:hover .img_news{
   transform: scale(1.1);
