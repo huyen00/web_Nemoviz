@@ -31076,6 +31076,10 @@ img {
   padding-left:1.3rem;
 }
 /* contact */
+.single_page_contact{
+  top:50%;
+  color:#ffffff;
+}
 .icon-contact{
   padding-top:1.5rem;
 }
@@ -31084,7 +31088,7 @@ img {
 }
 .icon-contact i {
   font-size: 30px;
-  color: #444444;
+  color: #ffffff;
 }
 .title-email{
   padding-top:1.5rem;
