@@ -30838,6 +30838,7 @@ a.colorch:hover {
   position: relative;
   padding:0rem 0rem 3rem;
   margin-top:4rem;
+  background-color: aliceblue;
   /* padding-bottom: 3rem; */
 }
 #Video{
@@ -31106,9 +31107,9 @@ img {
   color: #fff;
     font-weight: 700;
 }
-#new1{
+/* #new1{
   background-color:aliceblue ;
-}
+} */
 .container-fluid{
   padding-right:0px;
   padding-left:0px;
