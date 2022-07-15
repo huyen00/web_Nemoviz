@@ -39,7 +39,7 @@
 		height: 70vh ;
 	}
 	#header{
-		height: 80px;
+		
 	}
 
 	#nav_sticky {
@@ -175,6 +175,9 @@
 	}
 }
 @media all and (max-width: 1024px) {
+	#header{
+		height: 70px;
+	}
 	.mobile_icon{
 		display: block ;
 	}
@@ -692,6 +695,9 @@
 	
 }
 @media all and (max-width: 680px) {
+	#header{
+		height: 70px;
+	}
 	.mobile_icon{
 		display: block;
 	}
@@ -806,9 +812,7 @@
 	    height: 300px;
 	}
 	
-	.logo {
-	    padding: 10px 0 10px 15px;
-	}
+	
 	.menu-button {
 	    right: 10px;
 	}
@@ -1031,7 +1035,7 @@
 	}
 	.company_nemoviz{
 		width: 48%;
-		padding:1rem 3rem;
+		padding:1rem 2rem;
 	}
 	.contact_company{
 		width: 48%;
@@ -1076,6 +1080,9 @@
 	}
 
 }@media all and (max-width: 480px) {
+	#header{
+		height: auto;
+	}
 	.mobile_icon{
 		display: block;
 	}
@@ -1091,6 +1098,10 @@
 	}
 	#page_6 {
 		padding: 10px 0;
+	}
+	.company_logo{
+		width: 65%;
+		height: auto;
 	}
 	/* trang chủ */
 	#slider_img {
@@ -1141,7 +1152,9 @@
 }
 
 @media all and (max-width: 486px) {
-	
+	#header{
+		height: auto;
+	}
 	.mobile_icon ul{
 		padding-left:0;
 	}
@@ -1315,6 +1328,9 @@
 
 
 }@media all and (max-width: 320px) {
+	#header{
+		height: auto;
+	}
 	.mobile_icon{
 		display: block;
 	}

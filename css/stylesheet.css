@@ -11,14 +11,16 @@ body {
 .logo {
 	padding: 5px 0 5px 25px;
 	float: left;
-	width: 25%;
+  height:100%;
+
 }
 .logo img {
-  width: 70px;
+  width: auto;
+  height: 100%;
 }
 .nav_header {
-	float: left;
-	width: 75%;
+	float: right;
+	
 }
 
 .bg_header_page{
@@ -382,9 +384,9 @@ body {
   margin-top:2rem;
   
 }
-.company_logo{
+/* .company_logo{
   width: 30%;
-}
+} */
 .list-icon{
   display:flex;
   padding-left:0;
@@ -26446,6 +26448,7 @@ i.fas.fa-bars {
 	right: 0;
     transition: 0.5s;
     background: #002A5E;
+    height:70px;
 }
 #slider_img {
 	z-index: 1;
@@ -31073,6 +31076,33 @@ img {
   padding-left:1.3rem;
 }
 /* contact */
+.icon-contact{
+  padding-top:1.5rem;
+}
+.icon-contact a{
+  padding-right:1.5rem;
+}
+.icon-contact i {
+  font-size: 30px;
+  color: #444444;
+}
+.title-email{
+  padding-top:1.5rem;
+  text-align: center;
+}
+.content-aboutus{
+  position: absolute;
+    /* z-index: 11111; */
+    width: 100%;
+    /* height: 100%; */
+    top: 50%;
+}
+.content-aboutus h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+    font-weight: 700;
+}
 #new1{
   background-color:aliceblue ;
 }
