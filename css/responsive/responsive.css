@@ -95,8 +95,9 @@
 	    font-size: 14px;
 	    text-transform: capitalize;
 	}
+	/* 002A5E */
 	.menu-content.open {
-	    background: #16495c;
+	    background: #002A5E;
 	    padding-right: 0px;
 	    width: 25%;
 	    top: 0;
@@ -144,7 +145,7 @@
 	    position: relative;
 	    padding:  0;
 	    display: none;
-	    background: #16495c;
+	    background: #002A5E;
 	    margin-top: 10px;
 	}
 	.text_news h5 {
@@ -268,7 +269,7 @@
 	    text-transform: capitalize;
 	}
 	.menu-content.open {
-		background: #16495c;
+		background: #002A5E;
 	    padding-right: 0px;
 	    width: 25%;
 	    top: 0;
@@ -316,7 +317,7 @@
 	    position: relative;
 	    padding:  0;
 	    display: none;
-	    background: #16495c;
+	    background: #002A5E;
 	    margin-top: 10px;
 	}
 	.text_news h5 {
